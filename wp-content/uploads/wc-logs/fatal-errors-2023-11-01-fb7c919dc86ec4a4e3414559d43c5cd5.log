@@ -1,0 +1,37 @@
+2023-11-01T13:22:43+00:00 CRITICAL Uncaught Error: Class "Image_Upload_Widget" not found in C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('Image_Upload_Wi...')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-importer\wp-plugins.php(258): register_widget('Image_Upload_Wi...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): register_image_upload_widget('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): wp_widgets_init('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(632): do_action('init')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-11-01T13:22:44+00:00 CRITICAL Uncaught Error: Class "Image_Upload_Widget" not found in C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('Image_Upload_Wi...')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-importer\wp-plugins.php(258): register_widget('Image_Upload_Wi...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): register_image_upload_widget('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(1858): do_action('widgets_init')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): wp_widgets_init('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(632): do_action('init')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php on line 62
+

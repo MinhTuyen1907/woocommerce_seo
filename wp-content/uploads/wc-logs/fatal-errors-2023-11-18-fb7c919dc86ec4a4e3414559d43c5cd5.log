@@ -1,0 +1,19 @@
+2023-11-18T14:14:53+00:00 CRITICAL syntax error, unexpected identifier "the_title" in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\woocommerce\single-product\title.php on line 22
+
+2023-11-18T14:20:53+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_size_html() in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\woocommerce\single-product\price.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1655): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): woocommerce_template_single_price('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\woocommerce\content-single-product.php(59): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\woocommerce\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\woocommerce\single-product\price.php on line 26
+

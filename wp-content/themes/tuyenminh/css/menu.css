@@ -1,0 +1,247 @@
+/** css main-menu*/
+#menu-main-menu.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem
+
+  }
+
+  #menu-main-menu.menu  li {
+    position: relative;
+    display: inline-block;
+ 
+  }
+  #menu-main-menu.menu  li:hover > ul {
+    display: block;
+
+  }
+  #menu-main-menu.menu  li >a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+  
+  }
+  #menu-main-menu.menu  li >a:hover{
+    border-bottom: 1px solid red;
+  }
+  .sub-menu {
+    z-index: 10;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: #000;
+    padding: 10px;
+   
+    margin-left: -20px;
+  
+    background-color: white;
+   
+  }
+  .sub-menu:hover{
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-menu li {
+    display: inline;
+    width: 200px;
+  }
+  
+  #menu-main-menu.menu li > a:hover .sub-menu {
+    color:black;
+
+    
+   
+  }
+
+.widget-title{
+    font-size: 16px;
+}
+/** css danh muc*/
+#menu-menu-danhmuc.menu {
+  list-style-type: none;
+  margin-left: -40px;
+ 
+  
+}
+#menu-menu-danhmuc a{
+text-decoration: none;
+ font-family: Be Vietnam Pro;
+color: #767676;
+text-decoration: none;
+margin-top: 15px;
+font-size: 14px;
+} 
+#menu-menu-danhmuc li{
+  margin-top: 15px;
+}
+.menu-menu-danhmuc-container{
+  margin-top: -10px;
+}
+/** css cty*/
+#menu-menu-ct.menu {
+    list-style-type: none;
+    margin-left: -40px;
+   
+    
+}
+#menu-menu-ct a{
+  text-decoration: none;
+   font-family: Be Vietnam Pro;
+  color: #767676;
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 14px;
+} 
+#menu-menu-ct li{
+    margin-top: 15px;
+}
+.menu-menu-ct-container{
+    margin-top: -10px;
+}
+/** css hd*/
+#menu-menu-hd.menu {
+  list-style-type: none;
+  margin-left: -40px;
+ 
+  
+}
+#menu-menu-hd a{
+text-decoration: none;
+ font-family: Be Vietnam Pro;
+color: #767676;
+text-decoration: none;
+margin-top: 15px;
+font-size: 14px;
+}
+#menu-menu-hd li{
+  margin-top: 15px;
+}
+.menu-menu-hd-container{
+  margin-top: -10px;
+}
+/** css widget custom*/
+.fa-headphones{
+  font-size: 30px;
+  color: green;
+}
+.custom-wp{
+  display: flex;
+  margin-top: 15px;
+}
+
+.custom-wpc{
+  margin-left: 18px;
+}
+.custom-wpcc{
+  font-family: Be Vietnam Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: white;
+}
+.custom-wpt{
+  color: green;
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+/**custom1*/
+
+.fa-truck-arrow-right{
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.fa-arrow-rotate-left{
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.fa-gear{
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.custom-wp1{
+  display: flex;
+  margin-top: -2px
+  
+
+}
+
+.custom-wpc1{
+  margin-left: 15px;
+}
+.custom-wpcc1{
+  font-family: Be Vietnam Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: white;
+}
+.custom-wpt1{
+  color: #767676;
+  font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; /* 18.9px */
+}
+/***/
+.fa-envelope{
+  font-size: 15px;
+}
+.custom-wpc2{
+  font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; /* 18.9px */
+text-decoration-line: underline;
+  margin-left: 15px;
+  color: #767676;
+}
+
+.custom-wp2{
+display: flex;
+}
+/** widget img*/
+.ab_us{ display: flex;}
+.ab_tt{
+
+  margin-left: 20px;
+  padding-top: 25px
+}
+.us_name{
+  color:  #33B44A;
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.us_vtri{
+  color: var(--text-text-2, #767676);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+}
+.us_drip{
+  color: var(--text-text-1, #1A1A1A);
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 135%; 
+}

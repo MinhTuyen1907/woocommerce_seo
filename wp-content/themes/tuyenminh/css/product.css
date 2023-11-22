@@ -1,0 +1,301 @@
+ 
+ 
+ .customwidget{
+    display: grid;
+ }
+ .custom-wp4 {
+    border-radius: 6px ;
+    border: 1px solid var(--Line, #EAEAEA);
+        width: 14rem;
+        gap: 16px;
+        padding: 1rem;
+    background-color: #FFF;
+ }
+ .custom-wp3{
+    border-radius: 6px;
+background: var(--Background, #F5F5F5);
+    width: 14rem;
+    gap: 16px;
+    padding: 1rem;
+    
+ }
+
+ .wp-icon{
+    font-size: 2rem;
+    font-family: Be Vietnam Pro;
+ }
+ .custom-wpc3{
+    color: var(--text-text-1, #1A1A1A);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+ }
+ .custom-wpt3{
+    color: var(--text-text-2, #767676);
+    
+
+
+font-family: Be Vietnam Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; /* 21.6px */
+ }
+ span.onsale{
+    display: none;
+}
+.productop{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 4rem;
+}
+#wpgs-gallery img{
+    display: block;
+    width: 500px;
+}
+.horizontal{
+    width: 500px;
+    border-radius: 6px;
+}
+.woocommerce-product-details__short-description{
+    display: none;
+}
+.single_add_to_cart_button{
+    background: white;
+    width: 224.5px;
+    height: 55px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px #33B44A solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+    color: var(--green-33-b-44-a-05-main, #33B44A);
+/* Button/Button 2 */
+font-family: Be Vietnam Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 19.2px */
+
+}
+.summary {
+    margin-left: -11rem;
+    margin-top: -29px;
+}
+.product_title {
+    color: var(--text-text-1, #1A1A1A);
+
+/* Desktop/H03 */
+font-family: Be Vietnam Pro;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 135%; /* 43.2px */
+}
+.variations tr{
+    flex-direction: column;
+    align-items: baseline;
+    display: flex;
+
+}
+.reset_variations{
+    display: none !important;
+}
+.heart{
+    width: 55px; height: 55px; background: rgba(255, 255, 255, 0.80); border-radius: 6px; border: 1px #EAEAEA solid; justify-content: center; align-items: center; gap: 10px; display: inline-flex"
+}
+.woocommerce_checkout_place_order{
+    width: 224.5px;
+    height: 55px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px #33B44A solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+    color: var(--White, #FFF);
+
+/* Button/Button 2 */
+font-family: Be Vietnam Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 19.2px */
+}
+.woocommerce-variation-add-to-cart {
+    display: grid;
+    
+}
+.quality_price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.heart_cart_order{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.wqpmb_input_text {
+    width: 4rem;
+}
+.price{
+    margin-top: -1rem;
+}
+.product_meta{
+    display: none;
+}
+.lb{color: var(--text-text-1, #1A1A1A);
+
+/* Button/Button 1 */
+font-family: Be Vietnam Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 16.8px */
+}
+.woocommerce-tabs{
+    padding: 5rem;
+
+}
+.tabs{
+    border-bottom: 1px solid gray;
+}
+.woocommerce-tabs   ul.tabs {
+        list-style: none;
+        padding: 0 0 0 1em;
+        margin: 0 0 1.618em;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+    justify-content: center;
+    gap:3rem;
+}
+.woocommerce-tabs li {
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    border-radius: 4px 4px 0 0;
+    margin: 0 -5px;
+    padding: 0 1em;
+}
+
+.woocommerce-tabs a {
+    display: inline-block;
+    padding: 0.5em 0;
+    font-weight: 700;
+    color: var(--text-text-1, #1A1A1A);
+    /* Desktop/H05 */
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    text-decoration: none;}
+
+
+.woocommerce-tabs  a:hover {
+        text-decoration: none;    
+        border-bottom: 3px solid #33B44A;  
+        color: #33B44A;
+}
+.woocommerce-tabs .active {
+       
+        z-index: 2;
+}
+.woocommerce-Tabs-panel{
+    margin-left: 13rem;
+    margin-right: 8rem;
+}
+.woocommerce-Tabs-panel h2{
+
+
+color: var(--text-text-1, #1A1A1A);
+
+/* Desktop/H05 */
+font-family: Be Vietnam Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 24px */
+}
+.woocommerce-Tabs-panel p{
+    
+    color: var(--text-text-2, #767676);
+
+/* Body/Body 2 */
+font-family: Be Vietnam Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; /* 21.6px */
+}
+#secondary{
+    display: none;
+}
+.releat{
+    padding-left: 6rem;
+    margin-bottom: -0.5rem;
+    color: var(--text-text-1, #1A1A1A);
+
+/* Desktop/H04 */
+font-family: Be Vietnam Pro;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 28.8px */
+}
+.up-sells{
+    display: none;
+}
+.related{
+  
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    
+}
+.ir{
+    margin-right: 3rem;
+   
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+.ri{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: unset;
+}
+.woocommerce p.stars a {
+    position: relative;
+    height: 1em;
+    width: 1em;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+}
+.woocommerce p.stars a::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    font-family: WooCommerce;
+    content: "\e021";
+    text-indent: 0;
+}

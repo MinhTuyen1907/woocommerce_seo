@@ -1,0 +1,12 @@
+2023-10-24T15:07:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\page-home.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\index.php(40): get_template_part('page-home', 'post')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\page-home.php on line 29
+

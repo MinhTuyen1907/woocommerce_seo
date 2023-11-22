@@ -1,0 +1,12 @@
+2023-11-09T01:07:16+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_loop() in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\functions.php:435
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\functions.php on line 435
+
+2023-11-09T02:43:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 534
+

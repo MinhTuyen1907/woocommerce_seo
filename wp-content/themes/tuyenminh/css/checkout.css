@@ -1,0 +1,223 @@
+.woocommerce-form-coupon-toggle {
+    border-top: 3px solid green;
+    
+}
+.woocommerce-info a{
+    color: gray;
+  
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; 
+text-decoration: none;
+}
+.woocommerce-info a:hover{
+    font-size: 20px;
+}
+.woocommerce-info::before, .woocommerce-message::before {
+    font-family: WooCommerce;
+    content: "\e028";
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    left: 1.5em;
+}
+.woocommerce-info::after{
+    display: table;
+
+}
+.woocommerce form.checkout_coupon{
+    border: 1px solid #cfc8d8;
+    padding: 20px;
+    margin: 2em 0;
+    text-align: left;
+    border-radius: 5px;
+    display: none;
+}
+.woocommerce form .form-row {
+    padding: 3px;
+    margin: 0 0 6px;
+}
+.woocommerce form .form-row label {
+    line-height: 2;}
+    .woocommerce form .form-row input.input-text{
+        box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    }
+   
+.clear {
+    clear: both;
+}
+.woocommerce-page .col2-set {
+    width: 100%;}
+.woocommerce-page .col2-set::before {
+        content: " ";
+        display: table;
+    }
+ .woocommerce-page .col2-set .col-1 {
+        float: left;
+        width: 40%;
+        margin: 2rem;
+    }
+    .woocommerce form .form-row label {
+        line-height: 2;
+    }
+ .woocommerce form .form-row .required {
+        visibility: visible;
+        color: red;
+    font-weight: 700;
+    border: 0!important;
+    text-decoration: none;
+    }
+  .woocommerce form .form-row textarea {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        outline: 0;
+        line-height: normal;
+    }
+    .woocommerce form .form-row-wide, .woocommerce-page form .form-row-wide {
+        clear: both;
+    }
+    .woocommerce form .form-row label, .woocommerce-page form .form-row label {
+        display: block;
+    }
+    .woocommerce form .form-row .optional {
+        visibility: visible;
+    }
+    .woocommerce form .form-row select {
+        cursor: pointer;
+        margin: 0;
+    }
+    .woocommerce form .form-row .select2-container {
+        width: 100%;
+        line-height: 2em;
+    }
+    .select2-container--default .select2-selection--single {
+        background-color: #fff;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+    }
+    .select2-selection__rendered {
+        color: #444;
+        line-height: 28px;
+    }
+    .select2-selection__arrow {
+        height: 26px;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        width: 20px;
+    }
+    .select2-selection__arrow b {
+        border-color: #888 transparent transparent transparent;
+        border-style: solid;
+        border-width: 5px 4px 0 4px;
+        height: 0;
+        left: 50%;
+        margin-left: -4px;
+        margin-top: -2px;
+        position: absolute;
+        top: 50%;
+        width: 0;
+    }
+    .col-2{
+        float: right;
+    width: 40%;
+    margin: 2rem;
+    }
+    .woocommerce-checkout .checkout .col-2 h3#ship-to-different-address {
+        float: left;
+        clear: none;
+    }
+    .col-2 .form-row-first {
+        clear: left;
+    }
+    .woocommerce-shipping-fields::before {
+        content: " ";
+        display: table;
+    }
+    .shipping_address {
+        clear: both;
+    }
+    .woocommerce-checkout .checkout .col-2 .notes {
+        clear: left;
+    }
+    .woocommerce-page form .form-row::before {
+        content: " ";
+        display: table;
+    }   
+    .woocommerce-page form .form-row label {
+        display: block;
+    }
+   
+    .woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
+        font-weight: 700;
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+    .woocommerce ul#shipping_method li input {
+     
+        vertical-align: top;
+    }
+    .woocommerce ul#shipping_method li {
+      
+        line-height: 1.5em;
+        list-style: none outside;
+    }
+    .woocommerce ul#shipping_method li label {
+        display: inline;
+        margin-left: -90px;
+    }
+ .col-2.notes{
+    padding-top: 1.5rem;
+
+ }
+ #order_review_heading{
+    text-align: center;
+    font-family: Be Vietnam Pro;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 135%; 
+ }
+ .wc_payment_methods{
+    list-style: none;
+    
+ }
+ #payment{
+    border-top: 3px solid green;
+ }
+ .wc_payment_methods{
+    display: none;
+ }
+ .woocommerce-privacy-policy-text a{
+font-family: Be Vietnam Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; 
+color: #515151;
+ }
+ .place-order{
+    text-align: center;
+ }
+ .place-order button{
+    border-radius: 6px;
+border: 1px solid var(--green-33-b-44-a-05-main, #33B44A);
+color: var(--green-33-b-44-a-05-main, #33B44A);
+
+
+font-family: Be Vietnam Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; 
+background-color: white;
+float: right;
+margin-right: 3rem;
+margin-bottom: 2rem;
+
+ }

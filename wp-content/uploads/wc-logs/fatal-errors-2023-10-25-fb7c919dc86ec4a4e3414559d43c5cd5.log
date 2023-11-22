@@ -1,0 +1,24 @@
+2023-10-25T03:27:54+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\page-home.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\page-home.php on line 29
+
+2023-10-25T03:28:39+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\page-home.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\page-home.php on line 29
+
+2023-10-25T06:01:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\page-home.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\page-home.php on line 29
+

@@ -1,0 +1,2 @@
+2023-11-17T12:35:55+00:00 CRITICAL Out of memory (allocated 90177536) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-report-customers-totals-controller.php on line 1
+

@@ -1,0 +1,4 @@
+2023-11-06T05:59:38+00:00 CRITICAL syntax error, unexpected single-quoted string " <i class="fa-solid fa-house">...", expecting ":" in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\woocommerce\global\breadcrumb.php on line 32
+
+2023-11-06T06:00:31+00:00 CRITICAL syntax error, unexpected single-quoted string "<i class="fa-solid fa-house"></i>", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\tuyenminh\woocommerce\global\breadcrumb.php on line 32
+

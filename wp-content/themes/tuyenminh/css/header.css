@@ -1,0 +1,42 @@
+.topbar{
+    display: flex; justify-content: center;
+}
+.top1{
+    width: 1440px; height: 80px; padding-left: 80px; padding-right: 80px; background: white; justify-content: space-between; align-items: center; display: inline-flex
+}
+.top2{
+    justify-content: center; align-items: center; gap: 8px; display: flex
+}
+.top3{
+    width: 32px; height: 32px; padding-left: 1.67px; padding-right: 1.67px; padding-top: 3.67px; padding-bottom: 3.67px; justify-content: center; align-items: center; display: flex
+}
+.top4{
+    width: 28.67px; height: 24.67px; position: relative
+}
+.top5{
+    width: 8.67px; height: 12.67px; left: 20px; top: 12px; position: absolute; background: #2A353D
+}
+.top6{
+    width: 8.67px; height: 12.67px; left: 0px; top: 12px; position: absolute; background: #2A353D
+}
+.top7{
+    flex-direction: column; justify-content: center; align-items: flex-start; gap: 2px; display: inline-flex
+}
+.top8 a{
+    color: #1A1A1A; font-size: 14px; font-family: Be Vietnam Pro; font-weight: 600; line-height: 16.80px;word-wrap: break-word;text-decoration: none;
+}
+.top9{
+    color: #767676; font-size: 12px; font-family: Be Vietnam Pro; font-weight: 400; line-height: 16.20px; word-wrap: break-word
+}
+.top10{
+    justify-content: center; align-items: center; gap: 8px; display: flex
+}
+.top11{
+    width: 40px; height: 40px; border-radius: 100px; border: 1px #EAEAEA solid
+}
+.t12{
+    height: 40px; justify-content: center; align-items: center; gap: 8px; display: flex
+}
+.category{
+    height: 50px;border-bottom: 1px solid gray; border-top: 1px solid gray;
+}

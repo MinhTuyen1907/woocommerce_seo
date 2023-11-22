@@ -1,0 +1,45 @@
+.footer{
+    display: flex;justify-content: center;background: black; width:100%; height:600px
+}
+.footer-top{
+    width: 1250px; height: 60px;display: flex;justify-content: space-between;margin-top:70px
+}
+.sidebar1{
+    width: 200px;
+}
+.footer-center-conten{
+    width: 1250px;  border-top:1px solid #c9c9c9; border-bottom :1px solid #c9c9c9;   display: flex;
+}
+.conten-left{
+    width:300px;
+}
+.conten-right{
+    width:950px;display: flex;justify-content: space-around;
+}
+.content-bot{
+    display: grid; height: 30px;
+}
+.bottom{
+    width: 1250px; height: 100px;   display: flex;
+}
+.bottom-l{
+    width :600px; height:50px;display: flex; margin-top: 5px;
+}
+.bottom-t{
+    color:white; font-size:13px; width:130px;font-weight: 600;margin-top: 20px;font-family: Be Vietnam Pro;
+}
+.bottom-r{
+    width:650px;height:50px; text-align: end;font-family: Be Vietnam Pro;font-size: 13px;margin-top: 35px; color:gray
+}
+.gallery-columns-4{
+   
+    gap: 8px;
+    margin-top: -0.5rem;
+}
+#gallery{
+    align-items: baseline;
+}
+.conten-produce {
+    
+padding-left: 7rem
+}
